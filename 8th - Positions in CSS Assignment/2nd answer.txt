@@ -1,0 +1,13 @@
+In CSS, absolute positioning removes an element from the normal document flow and places it relative to its nearest positioned ancestor. Relative positioning moves an element relative to its default position on the page. 
+
+Here are some differences between absolute and relative positioning:
+
+Absolute positioning
+Moves an element, but does not consume any layout space. The element is drawn separately, on top of everything else, at the position specified using the top, right, bottom, and left attributes.
+
+Relative positioning
+Moves the element, but still consumes some space in the original position. The element can be shifted in any direction (up, down, left, right) from its original position. 
+
+Absolute positioning is often used to create complex layouts and unique design elements on web pages. You would typically only use absolute positioning if you can't use any other positioning method to make the layout work. For example, positioning icons or elements inside a container. 
+
+Relative positioning is used when you know the inner element of that element is going to be positioned absolutely. For example, if you have two divs and the outside div is a static block, and elements inside the outer div are going to be positioned absolute relative to the outer div. 

@@ -1,0 +1,7 @@
+In CSS, the z-index property controls the order of overlapping elements on a page. It's called "z-index" because it sets the order of elements along the z-axis. 
+
+The z-index property specifies the stack order of an element and its descendants. Elements with a higher z-index value will appear in front of an element with a lower z-index value. 
+
+The z-index property only works on positioned elements. These elements have a position value of either fixed, absolute, relative, or sticky. 
+
+The z-index property has a maximum value of 2147483647 and a minimum value of -2147483647. The z-index will not work with the "static" position. 
